@@ -35,3 +35,6 @@ Capture the outputs from both applications and compare the files; if they have p
  .\src\Net472\bin\Debug\Net472.exe  > output\net472.txt
  .\src\Net5\bin\Debug\net5.0\Net5.exe > output\net5.txt
 ```
+
+# Caveats
+This makes sense to me as a solution; but I am no expert on encryption. Use at your own risk. 
