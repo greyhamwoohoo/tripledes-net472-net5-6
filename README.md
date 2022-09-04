@@ -1,5 +1,5 @@
 # tripledes-net472-net6
-Implement TripleDES Encryption on .Net6 so that it produces the same output as .Net472
+Implement TripleDES Encryption on .Net5 so that it produces the same output as .Net472
 
 NOTE: Everything shown in this implementation for .Net 5 applies to .Net 6
 
@@ -9,7 +9,7 @@ The TripleDES Implementation is different between Net472 and NET5 when using CFB
 | Platform | ClearText | Output |
 | -- | -- | -- |
 | Net472 | Hello | UrTy2SxcTbY= |
-| Net6   | Hello | UrTy2Sxe     |
+| Net5   | Hello | UrTy2Sxe     |
 
 This is a known issue and is discussed at length [here](https://github.com/dotnet/runtime/issues/43234).
 
@@ -29,7 +29,7 @@ Net5 has two implementations:
 2. Encrypt will encrypt using the custom padding implementation. This is the solution we seek. 
 
 # Round-tripping
-Capture the outputs from both applications and compare the files; if they have parity, confidence is high (!) that the clearText has produced the same output:
+Capture the outputs from both applications and compare the files; if they have parity, confidence is high (!) that the clearText has produced the same cipherText on both platforms:
 
 ```bash
  .\src\Net472\bin\Debug\Net472.exe  > output\net472.txt
