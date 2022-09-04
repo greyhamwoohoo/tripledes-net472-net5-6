@@ -19,6 +19,8 @@ The specific issue in this case is to do with the Padding implementation in .Net
 To get .Net5 to encrypt using TripleDES the same as Net472, we need to implement the PKCS7 padding ourselves in .Net5. Decryption works fine. 
 
 # Implementation
+Two implementations are included here:
+
 Net472 includes the 'reference implementation' that encrypts as expected - PKCS7 padding is implemented as nature intended when using CFB mode and it just works. 
 
 Net5 has two implementations:
