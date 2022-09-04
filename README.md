@@ -1,5 +1,5 @@
 # tripledes-net472-net5-6
-Implement TripleDES Encryption on .Net5 so that it produces the same output as .Net472
+Implement TripleDES Encryption on .Net5 so that it produces the same ciphertext as .Net472
 
 NOTE: Everything shown in this implementation for .Net 5 applies to .Net 6
 
