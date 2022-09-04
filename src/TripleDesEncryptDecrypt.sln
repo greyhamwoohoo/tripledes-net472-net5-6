@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net472", "Net472.csproj", "{E69D945E-FBA3-479F-B93F-5192E722374B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net472", "Net472\Net472.csproj", "{E69D945E-FBA3-479F-B93F-5192E722374B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net5", "..\Net5\Net5.csproj", "{2C6C4CEA-9A5A-4EE8-A21D-4C570E6782F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net5", "Net5\Net5.csproj", "{2C6C4CEA-9A5A-4EE8-A21D-4C570E6782F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
